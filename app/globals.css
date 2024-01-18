@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .scroll-target {
+    scroll-margin-top: 60px; /* Adjust this value to the height of your sticky header */
+  }
+}
+
 body {
   background-image: url("/bgsite.svg"); /* Adjust the path as needed */
   background-size: cover;

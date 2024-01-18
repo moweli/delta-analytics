@@ -1,12 +1,11 @@
-import Hero from "./Components/Hero";
-import LogoCloud from "./Components/LogoCloud";
-import WhyUs from "./Components/WhyUs";
-import Subscribe from "./Components/Subscribe";
-import Nav from "./Components/Nav";
-import Footer from "./Components/Footer";
-import WhoWeHelp from "./Components/WhoWeHelp";
-import WhatWeDo from "./Components/WhatWeDo";
-import { useEffect } from "react";
+import Hero from "@/app/Components/Hero";
+import LogoCloud from "@/app/Components/LogoCloud";
+import WhyUs from "@/app/Components/WhyUs";
+import Subscribe from "@/app/Components/Subscribe";
+import Nav from "@/app/Components/Nav";
+import Footer from "@/app/Components/Footer";
+import WhoWeHelp from "@/app/Components/WhoWeHelp";
+import WhatWeDo from "@/app/Components/WhatWeDo";
 
 export default function Home() {
   return (
